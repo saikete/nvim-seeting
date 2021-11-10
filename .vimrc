@@ -49,9 +49,11 @@ set encoding=utf-8
 set langmenu=zh_CN.UTF-8
 set fileencodings=ucs-bom,utf-8,cp936,gb18030,big5,euc-jp,euc-kr,latin1
 set fileencoding=utf-8
+
 " 解决菜单乱码
 source $VIMRUNTIME/delmenu.vim
 source $VIMRUNTIME/menu.vim
+
 " 设置中文提示
 language messages zh_CN.utf-8
 " 设置双字宽显示，防止有些字符显示不出来
